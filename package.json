@@ -1,6 +1,6 @@
 {
   "name": "bees-portfolio",
-  "homepage": "https://MadeOfBees.github.io/{BeesPortfolio}",
+  "homepage": "https://MadeOfBees.github.io/BeesPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
