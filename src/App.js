@@ -1,8 +1,8 @@
 import React from 'react';
-import Form from './components/Form/index';
+import Nav from './components/Nav/index';
 
 function App() {
-  return <Form />;
+  return <Nav />;
 }
 
 export default App;
