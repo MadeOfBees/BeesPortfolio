@@ -5,11 +5,7 @@ import './style.css';
 function Display() {
     return (<main>
         <Nav />
-        <div>
-
-            <p>Music</p>
-
-        </div>
+        
     </main>)
 };
 
