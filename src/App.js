@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from './components/Nav/index';
+import Display from './components/Display/index';
 
 function App() {
-  return <Nav />;
+  return (<Display />);
 }
 
 export default App;
