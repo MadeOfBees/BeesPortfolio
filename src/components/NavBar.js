@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Nav({ currentPage, handlePageChange }) {
+function NavBar({ currentPage, handlePageChange }) {
   return (
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
@@ -83,4 +83,4 @@ function Nav({ currentPage, handlePageChange }) {
   );
 }
 
-export default Nav;
+export default NavBar;
