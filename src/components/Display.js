@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Nav from './Nav';
 import Home from './pages/Home';
 import Proj1 from './pages/projects/Proj1';
 import Proj2 from './pages/projects/Proj2';
@@ -8,7 +8,6 @@ import Proj4 from './pages/projects/Proj4';
 import Proj5 from './pages/projects/Proj5';
 import Proj6 from './pages/projects/Proj6';
 import Proj7 from './pages/projects/Proj7';
-
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -48,7 +47,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
