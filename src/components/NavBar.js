@@ -7,10 +7,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbar-dark-example" />
-        <Navbar.Collapse id="navbar-dark-example">
+        <Navbar.Toggle aria-controls="navbar" />
+        <Navbar.Collapse id="navbar">
           <Nav>
             <Nav.Item>
               <Nav.Link
@@ -23,7 +23,6 @@ function NavBar({ currentPage, handlePageChange }) {
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="Projects"
-              menuVariant="dark"
             >
               <Dropdown.Item
                 href="#Proj1"
