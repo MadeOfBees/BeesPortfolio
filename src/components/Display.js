@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
       return <Home />;
     }
     if (currentPage === 'Proj1') {
-      return <Page1 />;
+      return <Proj1 />;
     }
     if (currentPage === 'Proj2') {
       return <Proj2 />;
