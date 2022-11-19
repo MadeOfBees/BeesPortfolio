@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
 import Home from './pages/Home';
-import Proj1 from './pages/projects/Proj1';
-import Proj2 from './pages/projects/Proj2';
-import Proj3 from './pages/projects/Proj3';
-import Proj4 from './pages/projects/Proj4';
-import Proj5 from './pages/projects/Proj5';
-import Proj6 from './pages/projects/Proj6';
-import Proj7 from './pages/projects/Proj7';
+import Proj1 from './pages/projects/1SQLStore';
+import Proj2 from './pages/projects/2PasswordGen';
+import Proj3 from './pages/projects/3ReadMe';
+import Proj4 from './pages/projects/4Weather';
+import Proj5 from './pages/projects/5ArrayGun';
+import Proj6 from './pages/projects/6Fibonacci';
+import Proj7 from './pages/projects/7TeamMaker';
 import Contact from './pages/Contact';
 import Backrooms from './pages/Backrooms';
 

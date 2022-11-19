@@ -24,51 +24,51 @@ function NavBar({ currentPage, handlePageChange }) {
               menuVariant="dark"
             >
               <Dropdown.Item
-                href="#Proj1"
+                href="#SQLStore"
                 onClick={() => handlePageChange('Proj1')}
                 className={currentPage === 'Proj1' ? 'nav-link active' : 'nav-link'}
-              >Proj1
+              >SQL storefront
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj2"
+                href="#passwordGen"
                 onClick={() => handlePageChange('Proj2')}
                 className={currentPage === 'Proj2' ? 'nav-link active' : 'nav-link'}
-              >Proj2
+              >Password generator
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj3"
+                href="#readMeGen"
                 onClick={() => handlePageChange('Proj3')}
                 className={currentPage === 'Proj3' ? 'nav-link active' : 'nav-link'}
-              >Proj3
+              >Readme generator
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj4"
+                href="#weatherApp"
                 onClick={() => handlePageChange('Proj4')}
                 className={currentPage === 'Proj4' ? 'nav-link active' : 'nav-link'}
-              >Proj4
+              >Weather app
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj5"
+                href="#arrayGun"
                 onClick={() => handlePageChange('Proj5')}
                 className={currentPage === 'Proj5' ? 'nav-link active' : 'nav-link'}
-              >Proj5
+              >arrayGun
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj6"
+                href="#fibonacci"
                 onClick={() => handlePageChange('Proj6')}
                 className={currentPage === 'Proj6' ? 'nav-link active' : 'nav-link'}
-              >Proj6
+              >Fibonacci sequence generator
               </Dropdown.Item>
               <Dropdown.Item
-                href="#Proj7"
+                href="#teamMaker"
                 onClick={() => handlePageChange('Proj7')}
                 className={currentPage === 'Proj7' ? 'nav-link active' : 'nav-link'}
-              >Proj7
+              >Team Maker
               </Dropdown.Item>
             </NavDropdown>
             <Nav.Item>
               <Nav.Link
-                href="#Contact"
+                href="#contact"
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
               >Contact
