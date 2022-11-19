@@ -9,6 +9,7 @@ import Proj5 from './pages/projects/Proj5';
 import Proj6 from './pages/projects/Proj6';
 import Proj7 from './pages/projects/Proj7';
 import Contact from './pages/Contact';
+import Backrooms from './pages/Backrooms';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,7 +20,7 @@ export default function PortfolioContainer() {
       return <Home />;
     }
     if (currentPage === 'Proj1') {
-      return <Proj1 />;
+      return <Backrooms />;
     }
     if (currentPage === 'Proj2') {
       return <Proj2 />;
@@ -39,7 +40,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Proj7') {
       return <Proj7 />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Backrooms />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

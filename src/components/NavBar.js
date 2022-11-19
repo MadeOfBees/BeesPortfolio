@@ -7,22 +7,21 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <Navbar expand="lg">
+    <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Toggle aria-controls="navbar" />
-        <Navbar.Collapse id="navbar">
+        <Navbar.Brand
+          href="#home"
+          onClick={() => handlePageChange('Home')}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+        >Home
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-dark-example" />
+        <Navbar.Collapse id="navbar-dark-example">
           <Nav>
-            <Nav.Item>
-              <Nav.Link
-                href="#home"
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-              >Home
-              </Nav.Link>
-            </Nav.Item>
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="Projects"
+              menuVariant="dark"
             >
               <Dropdown.Item
                 href="#Proj1"
