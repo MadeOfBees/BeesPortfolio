@@ -51,7 +51,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 href="#arrayGun"
                 onClick={() => handlePageChange('Proj5')}
                 className={currentPage === 'Proj5' ? 'nav-link active' : 'nav-link'}
-              >arrayGun
+              >ArrayGun
               </Dropdown.Item>
               <Dropdown.Item
                 href="#fibonacci"
