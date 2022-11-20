@@ -1,0 +1,10 @@
+.nav-item .dropdown-item:hover {
+    background: #9948a3;
+}
+
+.setWidth {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 41%;
+    background-color: beige;
+}

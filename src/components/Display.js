@@ -10,6 +10,7 @@ import Proj6 from './pages/projects/6Fibonacci';
 import Proj7 from './pages/projects/7TeamMaker';
 import Contact from './pages/Contact';
 import Backrooms from './pages/Backrooms';
+import "./css/style.css"
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -49,9 +50,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main>
+    <main className='setWidth'>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className='bg-light page'>{renderPage()}</div>
     </main>
   );
 }
