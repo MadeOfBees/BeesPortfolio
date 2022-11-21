@@ -9,11 +9,13 @@ import Proj5 from './pages/projects/5ArrayGun';
 import Proj6 from './pages/projects/6Fibonacci';
 import Proj7 from './pages/projects/7TeamMaker';
 import Contact from './pages/Contact';
+import ProjCell from './pages/ProgCell';
 import Backrooms from './pages/Backrooms';
 import "./css/style.css"
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
+  const handlePageChange = (page) => setCurrentPage(page);
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
@@ -44,10 +46,12 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
+    if (currentPage === 'ProjCell') {
+      return <ProjCell currentPage={currentPage} handlePageChange={handlePageChange} />;
+    }
     return <Backrooms />;
   };
-
-  const handlePageChange = (page) => setCurrentPage(page);
+  
 
   return (
     <main className='setWidth'>

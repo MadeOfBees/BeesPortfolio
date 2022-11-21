@@ -26,6 +26,13 @@ function NavBar({ currentPage, handlePageChange }) {
               menuVariant="dark"
             >
               <Dropdown.Item
+                href="#Projects"
+                onClick={() => handlePageChange('ProjCell')}
+                className={currentPage === 'ProjCell' ? 'nav-link active' : 'nav-link'}
+              >Projects
+              </Dropdown.Item>
+              <Dropdown.Divider />
+              <Dropdown.Item
                 href="#SQLStore"
                 onClick={() => handlePageChange('Proj1')}
                 className={currentPage === 'Proj1' ? 'nav-link active' : 'nav-link'}
