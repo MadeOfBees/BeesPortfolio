@@ -1,15 +1,26 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image'
+import "../../css/style.css"
 
 export default function Proj2() {
   return (
     <div>
+      <div className="row">
+        <h1 className='col'>PasswordGen</h1>
+        <Image
+          src="https://user-images.githubusercontent.com/9198297/190828203-2adb4546-0e32-43f5-a163-07e28f079d48.png"
+          alt="PasswordGen"
+          className="col sanders"
+        />
+      </div>
       <h1>PasswordGen</h1>
-      <p>
-      A simple password generator
-      https://madeofbees.github.io/passwordGen/ 
-      https://github.com/MadeOfBees/passwordGen
-
-      </p>
+      <ul>
+        <li>A simple password generator</li>
+        <li>https://madeofbees.github.io/passwordGen/ </li>
+        <li>https://github.com/MadeOfBees/passwordGen</li>
+        <li><a href=">https://madeofbees.github.io/passwordGen/">https://madeofbees.github.io/passwordGen/</a></li>
+        <li><a href="https://github.com/MadeOfBees/passwordGen">https://github.com/MadeOfBees/passwordGen</a></li>
+      </ul>
     </div>
   );
 }
