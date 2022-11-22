@@ -2,7 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import Image from "react-bootstrap/Image";
 
-export default function Home() {
+export default function Backrooms() {
   return (
     <div>
       <h1>How did you get here?</h1>

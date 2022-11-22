@@ -83,6 +83,14 @@ function NavBar({ currentPage, handlePageChange }) {
               >Contact
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="#Resume"
+                onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              >Resume
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

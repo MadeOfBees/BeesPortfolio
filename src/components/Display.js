@@ -8,6 +8,7 @@ import Proj4 from './pages/projects/4Weather';
 import Proj5 from './pages/projects/5ArrayGun';
 import Proj6 from './pages/projects/6Fibonacci';
 import Proj7 from './pages/projects/7TeamMaker';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import ProjCell from './pages/ProgCell';
 import Backrooms from './pages/Backrooms';
@@ -49,6 +50,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'ProjCell') {
       return <ProjCell currentPage={currentPage} handlePageChange={handlePageChange} />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Backrooms />;
   };
