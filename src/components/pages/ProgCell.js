@@ -86,7 +86,7 @@ export default function ProjCell({ currentPage, handlePageChange }) {
         <Image
           onClick={() => handlePageChange('Proj7')}
           className={`d-block w-100 ${page7}`}
-          src="https://imgs.classicfm.com/images/25767?crop=16_9&width=660&relax=1&signature=zaV1b3MFv0hIC0a41oGLG3CvQ7I="
+          src="https://user-images.githubusercontent.com/9198297/200918630-01c4f4fd-d28e-4ce9-99c0-1ba52a8e63f4.jpg"
           alt="Team Maker"
         />
         <Carousel.Caption>
