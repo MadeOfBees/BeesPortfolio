@@ -9,15 +9,15 @@ export default function Home() {
       <p>
         Hi, i'm Bee and this is my portfolio, I don't really know what to write here so here's some sample text.
       </p>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
           <a href="https://github.com/MadeOfBees"><BsGithub />Github: MadeOfBees</a>
           </div>
-          <div class="col">
+          <div className="col">
             <a href="mailto: xronsredstone@gmail.com"><MdOutlineMail />Email: xronsredstone@gmail.com</a>
           </div>
-          <div class="col">
+          <div className="col">
             <BsLinkedin />
             Linkdin: None yet
           </div>

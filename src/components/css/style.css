@@ -5,6 +5,18 @@
 .setWidth {
     padding-right: 32px;
     padding-left: 32px;
-    padding-bottom: 41%;
-    background-color: beige;
+}
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 97vh; 
+  }
+.f1{
+    background-color: rgba(202, 204, 216, 0.26);
 }

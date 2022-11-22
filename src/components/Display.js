@@ -11,6 +11,7 @@ import Proj7 from './pages/projects/7TeamMaker';
 import Contact from './pages/Contact';
 import ProjCell from './pages/ProgCell';
 import Backrooms from './pages/Backrooms';
+import Footer from './Footer';
 import "./css/style.css"
 
 export default function PortfolioContainer() {
@@ -51,12 +52,15 @@ export default function PortfolioContainer() {
     }
     return <Backrooms />;
   };
-  
+
 
   return (
     <main className='setWidth'>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className='bg-light page'>{renderPage()}</div>
+      <div className='content'>
+        <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className='bg-light page'>{renderPage()}</div>
+      </div>
+      <Footer className="footer" />
     </main>
   );
 }
