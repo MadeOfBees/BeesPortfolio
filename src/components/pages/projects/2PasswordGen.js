@@ -16,7 +16,7 @@ export default function Proj2() {
       <h1>PasswordGen</h1>
       <ul>
         <li>A simple password generator</li>
-        <li><p>https://madeofbees.github.io/passwordGen/</p></li>
+        <li><a href="https://madeofbees.github.io/passwordGen/">https://madeofbees.github.io/passwordGen/</a></li>
         <li><a href="https://github.com/MadeOfBees/passwordGen">https://github.com/MadeOfBees/passwordGen</a></li>
       </ul>
     </div>
