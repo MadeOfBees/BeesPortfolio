@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Image from "react-bootstrap/Image";
 
 export default function Backrooms() {
+  console.log(`BZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzz`)
   return (
     <div>
       <h1>How did you get here?</h1>
