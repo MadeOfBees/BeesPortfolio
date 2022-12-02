@@ -2,14 +2,14 @@ import React from 'react';
 import Image from 'react-bootstrap/Image'
 import Carousel from 'react-bootstrap/Carousel';
 import "../css/style.css";
-const page1 = "{currentPage === 'Proj1' ? 'nav-link active' : 'nav-link'}"
-const page2 = "{currentPage === 'Proj2' ? 'nav-link active' : 'nav-link'}"
-const page3 = "{currentPage === 'Proj3' ? 'nav-link active' : 'nav-link'}"
-const page4 = "{currentPage === 'Proj4' ? 'nav-link active' : 'nav-link'}"
-const page5 = "{currentPage === 'Proj5' ? 'nav-link active' : 'nav-link'}"
-const page6 = "{currentPage === 'Proj6' ? 'nav-link active' : 'nav-link'}"
-const page7 = "{currentPage === 'Proj7' ? 'nav-link active' : 'nav-link'}"
-
+const page1 = "{currentPage === 'Proj1' ? 'nav-link active' : 'nav-link'}";
+const page2 = "{currentPage === 'Proj2' ? 'nav-link active' : 'nav-link'}";
+const page3 = "{currentPage === 'Proj3' ? 'nav-link active' : 'nav-link'}";
+const page4 = "{currentPage === 'Proj4' ? 'nav-link active' : 'nav-link'}";
+const page5 = "{currentPage === 'Proj5' ? 'nav-link active' : 'nav-link'}";
+const page6 = "{currentPage === 'Proj6' ? 'nav-link active' : 'nav-link'}";
+const page7 = "{currentPage === 'Proj7' ? 'nav-link active' : 'nav-link'}";
+const page8 = "{currentPage === 'ChessTutorial' ? 'nav-link active' : 'nav-link'}";
 
 export default function ProjCell({ currentPage, handlePageChange }) {
   return (
@@ -91,6 +91,17 @@ export default function ProjCell({ currentPage, handlePageChange }) {
         />
         <Carousel.Caption>
           <h5>TeamMaker</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image
+          onClick={() => handlePageChange('ChessTutorial')}
+          className={`d-block w-100 ${page8}`}
+          src="https://user-images.githubusercontent.com/9198297/205209501-8e7bb02a-9f5d-4290-a7b0-ffd0d9e7a80d.jpg"
+          alt="Team Maker"
+        />
+        <Carousel.Caption>
+          <h5>ChessTutorial</h5>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

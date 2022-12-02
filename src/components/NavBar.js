@@ -74,6 +74,12 @@ function NavBar({ currentPage, handlePageChange }) {
                 className={currentPage === 'Proj7' ? 'nav-link active' : 'nav-link'}
               >Team Maker
               </Dropdown.Item>
+              <Dropdown.Item
+                href="#chessTutorial"
+                onClick={() => handlePageChange('ChessTutorial')}
+                className={currentPage === 'ChessTutorial' ? 'nav-link active' : 'nav-link'}
+              >Chess tutorial
+              </Dropdown.Item>
             </NavDropdown>
             <Nav.Item>
               <Nav.Link

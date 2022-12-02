@@ -8,6 +8,7 @@ import Proj4 from './pages/projects/4Weather';
 import Proj5 from './pages/projects/5ArrayGun';
 import Proj6 from './pages/projects/6Fibonacci';
 import Proj7 from './pages/projects/7TeamMaker';
+import ChessTutorial from './pages/projects/8ChessTutorial';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import ProjCell from './pages/ProgCell';
@@ -53,6 +54,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Resume') {
       return <Resume />;
+    }
+    if (currentPage === 'ChessTutorial') {
+      return <ChessTutorial />;
     }
     return <Backrooms />;
   };
